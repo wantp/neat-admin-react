@@ -1,0 +1,56 @@
+@import '~antd/es/style/themes/default.less';
+
+
+.iconsContainer {
+  width: 300px;
+  background: #fff;
+  border: #ccc 1px solid;
+  border-radius: 6px;
+
+  .iconsSearch {
+    height: 60px;
+    background: #f7f7f7;
+  }
+
+  .iconsList {
+    width: 100%;
+    min-height: 120px;
+    max-height: 240px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    direction: ltr;
+    list-style: none;
+
+    li {
+      position: relative;
+      float: left;
+      width: 20%;
+      height: 50px;
+      margin: 5px;
+      overflow: hidden;
+      color: #555;
+      line-height: 50px;
+      text-align: center;
+      list-style: none;
+      background-color: inherit;
+      border: #ddd 1px solid;
+      border-radius: 4px;
+      cursor: pointer;
+      -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out;
+      transition: color .3s ease-in-out, background-color .3s ease-in-out;
+
+      &:hover {
+        color: #fff;
+        background-color: #1890ff;
+      }
+    }
+  }
+}
+
+:global {
+  .anticon {
+    margin-top: 5px;
+  }
+}

@@ -24,8 +24,8 @@ function getBase64(img: Blob, callback: (imgUrl: string | ArrayBuffer | null) =>
 }
 
 interface FormProps {
-  initialValues: any
-  form: FormInstance;
+  initialValues?: any
+  form?: FormInstance;
 }
 
 const UserFormFields: React.FC<FormProps> = (props) => {

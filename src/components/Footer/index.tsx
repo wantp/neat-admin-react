@@ -7,23 +7,24 @@ export default () => (
     copyright="Neat admin"
     links={[
       {
-        key: 'Ant Design Pro',
-        title: 'Ant Design Pro',
-        href: 'https://pro.ant.design',
+        key: 'Neat Admin',
+        title: 'Neat Admin',
+        href: 'https://github.com/wantp/neat-admin',
         blankTarget: true,
       },
       {
         key: 'github',
         title: <GithubOutlined />,
-        href: 'https://github.com/ant-design/ant-design-pro',
+        href: 'https://github.com/wantp/neat-admin-react',
         blankTarget: true,
       },
       {
-        key: 'Ant Design',
-        title: 'Ant Design',
-        href: 'https://ant.design',
+        key: 'Neat Admin React',
+        title: 'Neat Admin React',
+        href: 'https://github.com/wantp/neat-admin-react',
         blankTarget: true,
       },
+
     ]}
   />
 );
